@@ -1,11 +1,12 @@
 body {
-background-color: green;
+background-color: #aaa;
+font-family: Arial;
 }
 
 
 
 #wrapper{
-background-color: blue;
+background-color: white;
 width: 1140px;
 margin-left: auto ;
 margin-right: auto ;
@@ -15,6 +16,16 @@ margin-right: auto ;
 #header{
 text-align: right;
 background-color: red;
+
+}
+
+#content{
+height: 712px;
+padding: 10px;
+
+}
+
+#standort{
 
 }
 
@@ -43,17 +54,19 @@ nav ul:after {
 }
 
 nav ul,nav ul li{
-    background-color: white;
+    background-color: #ccc;
 }
     nav ul li {
     list-style: none;
-    float:left;
+    float: left;
 }
 nav ul li a {
     text-decoration: none;
     display: block;
     color: black;
-    padding: 14px 34px 14px 34px;
+	margin-left: auto ;
+	margin-right: auto ;
+    padding: 4px 7px 4px 7px;
 }
 nav ul li ul{
     display: inline;
@@ -69,8 +82,8 @@ nav ul li ul li{
 }
 
 nav ul li:hover a, nav ul li:hover > ul li a  {
-	color: white;
-    background-color: black;
+	color: black;
+    background-color: #ddd;
 }
 nav ul li ul li:hover a{
     float: none;
@@ -82,9 +95,27 @@ nav ul li ul li:hover{
 nav ul li ul li a:hover{
     color: black !important;
 	background-color: white !important;
+	transition: background 0.3s ease-out 0s;
 }
 
+#kontaktinfo{
+list-style: none;
+float: right;
+margin: 0px;
+padding: 0px;
+}
 
 img {
 opacity: 1;
+}
+
+.entry img
+{
+	width:50px;
+	border: 2px solid black;
+	float: left;
+}
+.entry p
+{
+	margin: 0px;
 }
